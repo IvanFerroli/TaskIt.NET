@@ -1,0 +1,40 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# React
+node_modules/
+build/
+
+# Docker
+*.tar
+*.log
+
+# Environment
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Misc
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
