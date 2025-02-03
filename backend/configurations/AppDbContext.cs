@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using backend.models;
+using backend.models; 
 using System;
 using System.IO;
 
@@ -25,7 +25,7 @@ namespace backend.configurations
             _configuration = configuration;
         }
 
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<backend.models.Task> Tasks { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
